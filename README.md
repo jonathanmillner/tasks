@@ -13,7 +13,7 @@ e.g.
 yarn run dev
 ```
 
-## Backend repo / NestJS, Node.js, Prisma ORM
+## Backend repo / NestJS, Node.js, Prisma ORM, PostgreSQL
 
 [GitHub](https://github.com/jonathanmillner/tasks-backend) ->
 [https://github.com/jonathanmillner/tasks-backend](https://github.com/jonathanmillner/tasks-backend)
