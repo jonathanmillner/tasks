@@ -736,6 +736,40 @@
     lightningcss "^1.29.1"
     tailwindcss "4.0.9"
 
+"@tanstack/query-core@5.66.11":
+  version "5.66.11"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.66.11.tgz#0c3660ee7d185598e2b3d1ffcdaba55f5b7ce6ae"
+  integrity sha512-ZEYxgHUcohj3sHkbRaw0gYwFxjY5O6M3IXOYXEun7E1rqNhsP8fOtqjJTKPZpVHcdIdrmX4lzZctT4+pts0OgA==
+
+"@tanstack/query-persist-client-core@5.66.11", "@tanstack/query-persist-client-core@^5.66.11":
+  version "5.66.11"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-persist-client-core/-/query-persist-client-core-5.66.11.tgz#3038999585051d51aabfac4df129086913b020b3"
+  integrity sha512-r1JNUSKeVSAJuHrBtBDAvYGxt/8NDmMM5ke1qgq2jReffsah/gT6XALZ6VnOb/xIc/uxbQpREK4uy8vJitUVHA==
+  dependencies:
+    "@tanstack/query-core" "5.66.11"
+
+"@tanstack/query-sync-storage-persister@^5.66.11":
+  version "5.66.11"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-sync-storage-persister/-/query-sync-storage-persister-5.66.11.tgz#152148d0689540a357e9569cc48d2d9a92d813bd"
+  integrity sha512-aE5fkmSkNxkcaOyW3vYIFx/mnTGYNAF9U6tU9Qc1ycCaQiMfZ0whek8RA9p6RPX4wX4kDE4xoWzCwVRAxB85EA==
+  dependencies:
+    "@tanstack/query-core" "5.66.11"
+    "@tanstack/query-persist-client-core" "5.66.11"
+
+"@tanstack/react-query-persist-client@^5.66.11":
+  version "5.66.11"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query-persist-client/-/react-query-persist-client-5.66.11.tgz#8bdb792616927bf1c0a9e304e0a4cdc28da92216"
+  integrity sha512-ZwZtGzz/J/d4jT1Q9xzr3/8y9RHcbuk7HgbW0P6Ll/NMN6Q+3dquZmtSz0ENXWn6h/183eodkxAKonF1vXetFQ==
+  dependencies:
+    "@tanstack/query-persist-client-core" "5.66.11"
+
+"@tanstack/react-query@^5.66.11":
+  version "5.66.11"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.66.11.tgz#621b062b9a2477b300d6271422dadd13785b24c9"
+  integrity sha512-uPDiQbZScWkAeihmZ9gAm3wOBA1TmLB1KCB1fJ1hIiEKq3dTT+ja/aYM7wGUD+XiEsY4sDSE7p8VIz/21L2Dow==
+  dependencies:
+    "@tanstack/query-core" "5.66.11"
+
 "@types/babel__core@^7.20.5":
   version "7.20.5"
   resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.20.5.tgz#3df15f27ba85319caa07ba08d0721889bb39c017"

@@ -1,5 +1,6 @@
 import { memo, useCallback } from "react";
 import { TaskItemProps } from "../../types/Task";
+import { formatDate } from "../../utils/formatDate";
 
 const TaskItem = ({ task, onComplete, onDelete }: TaskItemProps) => {
   const handleComplete = useCallback(
@@ -34,6 +35,8 @@ const TaskItem = ({ task, onComplete, onDelete }: TaskItemProps) => {
           Delete
         </button>
       </div>
+
+      <small className="text-gray-400 pl-2">{formatDate(task.createdAt)}</small>
     </li>
   );
 };
