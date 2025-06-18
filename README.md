@@ -1,4 +1,4 @@
-# Tasks app frontend / Vite, React, Typescript, Tailwind CSS
+# Tasks app frontend / React, TypeScript, Tailwind CSS, Vite
 
 ### Create an .env file
 ```
